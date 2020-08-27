@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    maring: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure:
+}
+.main{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+.quizbox {
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 799px;
+    width: 699px;  
+    margin: 0px auto;
+    margin-top: 5%;
+    background-color: rgba(3, 119, 252,0.6);
+    box-shadow: 2px 3px 4px black;
+}
+
+.quizbox h1 {
+    height: 39px;
+    border-bottom: 2px solid orange; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quest{
+    margin-top: 5%;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.option{
+    display: flex;
+    margin-left: 30px;
+}
+.option ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.option ul li{
+    list-style: none;
+    padding: 30px 50px;
+}
+.button{
+    height: 80px;
+    width: 210px;
+    border-radius: 15px;
+    font-size: 1.4em;
+    cursor: pointer;
+    background-color: white;
+    outline: none;
+}
+.option ul li .button:hover{
+    border-radius: 15px;
+    background-color: azure;
+    outline: none;
+}
+.option ul li .button:active{
+    border-radius: 15px;
+    background-color: azure;
+    outline: none;
+}
+.score{
+    margin-left: 22%;
+    margin-top: 5%;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.next{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.next .nextClass{
+    height: 60px;
+    width: 180px;
+    border-radius: 15px;
+    font-size: 1.4em;
+    cursor: pointer;
+    outline: none;
+}
